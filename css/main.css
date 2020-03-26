@@ -1,14 +1,14 @@
-/* ------------- LAYOUT --------------- */
+
 body {
   display: flex;
   justify-content: center;
 }
-.main-container {
+.contenedor{
   display: flex;
   width: 1200px;
 }
 
-/* ------------- GENERAL -------------- */
+
 ul {
   list-style-type: none;
 }
@@ -17,7 +17,7 @@ h2 {
   text-transform: uppercase;
 }
 
-/* ------------- ASIDE ---------------- */
+
 aside {
   background-color: grey;
   flex-basis: 25%;
@@ -37,20 +37,20 @@ aside section h2{
   padding: 5px;
 }
 
-#profile-pic {
+#fotito {
   text-align: center;
 }
-#profile-pic img{
+#fotito img{
   border-radius: 50%;
   width: 200px;
 }
 section h1{
   letter-spacing: 2.5px;
   text-align: center;
-  /*font-family: "Segoe UI";*/
+  /*font-family: "Segoe UI"; MM PUEDE SER VERR MAS TIPOS DE FUENTESSSSSS*/ 
 }
 
-/* ------------- MAIN ---------------- */
+
 main {
   flex-basis: 75%;
 }
@@ -110,7 +110,7 @@ dt {
   font-weight: bolder;
 }
 
-/* Icons */
+
 .social-item::before {
   padding-right: 15px;
 }
@@ -120,7 +120,7 @@ dt {
   content: "\f082";
 }
 
-/* Meter */
+
 meter {
   display: block;
   width: 80%;
@@ -135,7 +135,7 @@ meter::-webkit-meter-bar {
 }
 
 @media (max-width: 400px) {
-  .main-container {
+  .contenedor {
     width: 100%;
     flex-wrap: wrap;
     font-size: 1.2em;
